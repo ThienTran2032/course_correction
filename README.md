@@ -33,12 +33,7 @@ In doing so, should launch all the node structures with the terminal showing the
 
 
 # ROS Nodes, Publishers and Subscriber Diagram
-The node structure of the system is as follows.
-
-
-Figure 1: ROS Nodes and Topics. For any point, you can subscribe to the following topics to observe its output.
-Known Issues/Items/bugs that Need Addressing or Revisiting
-A list of things that need to be fixed and explored later on.
+Refer to the documentation.
 
 Improve the reliability of the cone cluster detection algorithm.
 Currently, the code classifies the cone based on the difference in the maximum and minimum point cloud value in the x and y axis. Other factors include the expected cluster size.
