@@ -35,6 +35,8 @@ In doing so, should launch all the node structures with the terminal showing the
 # ROS Nodes, Publishers and Subscriber Diagram
 Refer to the documentation.
 
+
+# Known Issues and Areas of Imporvement
 Improve the reliability of the cone cluster detection algorithm.
 Currently, the code classifies the cone based on the difference in the maximum and minimum point cloud value in the x and y axis. Other factors include the expected cluster size.
 The node only publishes the clusters that fit this criteria. Note other objects may meet this criteria and thus may need to be modified to improve reliability. Some form of machine/deep learning algorithm can be used here.
