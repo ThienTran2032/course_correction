@@ -1,6 +1,6 @@
 
-	Resources to get Started
-It is recommended to read into the following resources. 
+# Resources to get Started
+## It is recommended to read into the following resources. 
 
 ROS Tutorials
 Point Cloud Library (PCL)
@@ -8,7 +8,7 @@ Velodyne ROS Drivers
 VLP16 Velodyne
 
 
-To be included in future if the team decides to further develop it.
+## To be included in future if the team decides to further develop it.
 
 Camera-LiDAR extrinsic calibration model
 RTKLIB for RTK System
@@ -16,25 +16,23 @@ Swift Nav GNSS RTK
 XSENS IMU
 
 
-Alternative solution to current GNSS RTK.
+## Alternative solution to current GNSS RTK.
 
 GNSS RTK Dual Antenna through Arduino (faster and easier solution to set up. Works for dual antenna application).
 Uses ZED F9P.
 
 
-	Running the Code
-Refer to the following GitHUB repository to obtain the code for course correction. The repo should be cloned into the ‘catkin_ws\src’ location. 
 
-GITHUB Code
 
-Likewise, the velodyne ROS driver linked above. Once these two files are in the workspace and workspace is built (catkin build), run the following launch function.
+# Running the Code
+Refer to the following GitHUB repository to obtain the code for course correction. The repo should be cloned into the ‘catkin_ws\src’ location. Likewise, the velodyne ROS driver linked above. Once these two files are in the workspace and workspace is built (catkin build), run the following launch function.
 
 roslaunch course_correction VLP16_course_correction.launch
 
 In doing so, should launch all the node structures with the terminal showing the most important information from the LiDAR (not done yet).
 
 
-	ROS Nodes, Publishers and Subscriber Diagram
+# ROS Nodes, Publishers and Subscriber Diagram
 The node structure of the system is as follows.
 
 
@@ -67,7 +65,7 @@ Make sure you do not change any parameters on this page. Altering any configurat
 
 
 
-	Other elements that still needs to be developed or Implemented
+# Other elements that still needs to be developed or Implemented
 These are components that should be considered for course correction.
 
 Transposing LiDAR point cloud data onto the image data from the camera.
