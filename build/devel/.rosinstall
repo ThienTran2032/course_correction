@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/thien/catkin_ws/src/course_correction/build/devel/setup.sh

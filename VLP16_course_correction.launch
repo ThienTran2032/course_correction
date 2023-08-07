@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch" />
+
+    <node pkg="course_correction" type="geometry_filter_node" name="filter_pt"/>
+    <node pkg="course_correction" type="floor_filter_segmentation_node" name="segment_pt"/>
+    <node pkg="course_correction" type="cone_distance_node" name="cluster_pt"/>
+    <node pkg="course_correction" type="cone_midpoint_node" name="midpoint_pt" output="screen"/>
+    <node pkg="course_correction" type="spline_node" name="spline_pt" />
+    
+  
+</launch>
+
